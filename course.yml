@@ -1,0 +1,54 @@
+semester: "Spring 2025"
+instructor: "Professor John Doe"
+start_date: "2025-01-15T00:00:00-05:00"
+student_id: "NetID"
+
+letter_grades:
+  A: 0.9
+  B: 0.8
+  C: 0.7
+  D: 0.6
+  F: 0.0
+
+assessments:
+  - type: checkpoint
+    id: hello
+    date: "2025-02-01T23:59:59-05:00"
+    grace_period: 24
+    percent_required: 0.5
+    weight: 0.2
+
+  - type: due
+    id: hello
+    date: "2025-02-15T23:59:59-05:00"
+    extra_late_date: "2025-02-20T23:59:59-05:00"
+    late_penalty: 0.2
+    extra_late_penalty: 0.4
+    percent_required: 0.8
+    weight: 0.3
+
+  - type: checkpoint
+    id: world
+    date: "2025-03-01T23:59:59-05:00"
+    grace_period: 24
+    percent_required: 0.5
+    weight: 0.2
+
+  - type: due
+    id: world
+    date: "2025-03-15T23:59:59-05:00"
+    extra_late_date: "2025-03-20T23:59:59-05:00"
+    late_penalty: 0.2
+    extra_late_penalty: 0.4
+    percent_required: 0.8
+    weight: 0.3
+
+  - type: extra
+    name: "Project Bonus"
+    credit:
+      token-12345: 0.05
+      token-67890: 0.03
+
+max_extra: 0.1
+
+grading_policy: "Complete all modules and assessments for full credit."
