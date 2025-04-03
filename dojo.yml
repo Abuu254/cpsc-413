@@ -12,9 +12,12 @@ modules:
       module: hw1
 
   -import:
-      dojo: hw3-dojo
-      module: hw3
+      dojo: hw2-dojo
+      module: hw2
 
-  # -import:
-  #     dojo: hw4-dojo
-  #     module: hw4
+  -import:
+      dojo: hw2-dojo
+      module: hw2-dns
+  -import:
+      dojo: hw2-dojo
+      module: talking-web
