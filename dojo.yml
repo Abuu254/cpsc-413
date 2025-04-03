@@ -26,7 +26,49 @@ modules:
   - import:
       dojo: hw3-dojo
       module: hw3
+    
+  - id: hw4
+    name: Homework 4
+    description: Challenges from Homework 4: Application Security
 
-  - import:
-      dojo: hw4-dojo
-      module: hw4
+    challenges:
+      - import:
+          dojo: hw4-dojo
+          module: hw4
+          challenge: level-0
+
+      - import:
+          dojo: hw4-dojo
+          module: hw4
+          challenge: level-1
+
+      - import:
+          dojo: hw4-dojo
+          module: hw4
+          challenge: level-2
+
+      - import:
+          dojo: hw4-dojo
+          module: hw4
+          challenge: level-3
+
+      - import:
+          dojo: hw4-dojo
+          module: hw4
+          challenge: level-4
+
+      - import:
+          dojo: hw4-dojo
+          module: hw4
+          challenge: level-5
+
+      - import:
+          dojo: hw4-dojo
+          module: hw4
+          challenge: level-6
+
+      - import:
+          dojo: hw4-dojo
+          module: hw4
+          challenge: level-7
+
