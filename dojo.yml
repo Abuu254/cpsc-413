@@ -5,7 +5,14 @@ award:
   emoji: 🎓
 image: pwncollege/challenge-simple
 modules:
-  - import:
+  -id: hello
+  -id: world
+  -import:
       dojo: hw1-dojo
       module: hw1
-
+  -import:
+      dojo: hw3-dojo
+      module: hw3
+  -import:
+      dojo: hw4-dojo
+      module: hw4
