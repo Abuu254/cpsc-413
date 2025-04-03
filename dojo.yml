@@ -11,19 +11,6 @@ modules:
       dojo: hw1-dojo
       module: hw1
 
-  # - import:
-  #     dojo: hw2-dojo
-  #     module: hw2
-
-  # - import:
-  #     dojo: hw2-dojo
-  #     module: hw2-dns
-
-  # - import:
-  #     dojo: hw2-dojo
-  #     module: talking-web
-
-
   - id: hw4
     name: Homework 4
     description: Challenges from Homework 4- Application Security
@@ -163,3 +150,181 @@ modules:
           dojo: hw3-dojo
           module: hw3
           challenge: level-18
+  - id: hw2
+    name: Homework 2
+    description: All Homework 2 content including DNS poisoning, file race conditions, and HTTP practice
+
+    challenges:
+      # hw2-dns
+      - import:
+          dojo: hw2-dojo
+          module: hw2-dns
+          challenge: dns-poisoning-1
+
+      # hw2 (TOCTOU)
+      - import:
+          dojo: hw2-dojo
+          module: hw2
+          challenge: file-read-toctou
+      - import:
+          dojo: hw2-dojo
+          module: hw2
+          challenge: file-write-toctou
+
+      # talking-web
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-1
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-2
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-3
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-4
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-5
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-6
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-7
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-8
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-9
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-10
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-11
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-12
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-13
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-14
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-15
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-16
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-17
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-18
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-19
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-20
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-21
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-22
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-23
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-24
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-25
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-26
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-27
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-28
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-29
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-30
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-31
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-32
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-33
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-34
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-35
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-36
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-37
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-38
+      - import:
+          dojo: hw2-dojo
+          module: talking-web
+          challenge: level-39
