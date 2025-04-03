@@ -7,17 +7,26 @@ image: pwncollege/challenge-simple
 modules:
   # -id: hello
   # -id: world
-  -import:
+  - import:
       dojo: hw1-dojo
       module: hw1
 
-  -import:
+  - import:
       dojo: hw2-dojo
       module: hw2
 
-  -import:
+  - import:
       dojo: hw2-dojo
       module: hw2-dns
-  -import:
+
+  - import:
       dojo: hw2-dojo
       module: talking-web
+
+  # - import:
+  #     dojo: hw2-dojo
+  #     module: hw2-dns
+
+  # - import:
+  #     dojo: hw2-dojo
+  #     module: talking-web
