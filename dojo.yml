@@ -29,7 +29,7 @@ modules:
 
   - id: hw4
     name: Homework 4
-    description: Challenges from Homework 4: Application Security
+    description: Challenges from Homework 4- Application Security
 
     challenges:
       - import:
@@ -71,7 +71,7 @@ modules:
           dojo: hw4-dojo
           module: hw4
           challenge: level-7
-          
+
   - id: hw3
     name: Homework 3
     description: Web exploitation challenges from Homework 3
