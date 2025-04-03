@@ -5,7 +5,7 @@ award:
   emoji: 🎓
 image: pwncollege/challenge-simple
 modules:
-  - id: hello
-    name: Unit 1
-  - id: world
-    name: Unit 2
+  - import:
+      dojo: hw1-dojo
+      module: hw1
+
