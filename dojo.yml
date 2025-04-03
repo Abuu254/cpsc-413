@@ -11,17 +11,9 @@ modules:
       dojo: hw1-dojo
       module: hw1
 
-  - import:
-      dojo: hw2-dojo
-      module: hw2
-
-  - import:
-      dojo: hw2-dojo
-      module: hw2-dns
-
-  - import:
-      dojo: hw2-dojo
-      module: talking-web
+  # - import:
+  #     dojo: hw2-dojo
+  #     module: hw2
 
   # - import:
   #     dojo: hw2-dojo
@@ -30,3 +22,11 @@ modules:
   # - import:
   #     dojo: hw2-dojo
   #     module: talking-web
+
+  - import:
+      dojo: hw3-dojo
+      module: hw3
+
+  - import:
+      dojo: hw4-dojo
+      module: hw4
