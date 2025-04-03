@@ -14,7 +14,7 @@ modules:
   -import:
       dojo: hw3-dojo
       module: hw3
-  
-  -import:
-      dojo: hw4-dojo
-      module: hw4
+
+  # -import:
+  #     dojo: hw4-dojo
+  #     module: hw4
