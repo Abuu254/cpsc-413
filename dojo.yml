@@ -11,9 +11,6 @@ modules:
       dojo: hw1-dojo
       module: hw1
 
-      award:
-        emoji: 📝
-
   - id: hw4
     name: Homework 4
     description: Challenges from Homework 4- Application Security
