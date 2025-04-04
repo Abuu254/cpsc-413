@@ -25,12 +25,8 @@ assessments:
     # percent_required: 0.8
     weight: 0.5
 
-  # - type: checkpoint
-  #   id: world
-  #   date: "2025-03-01T23:59:59-05:00"
-  #   grace_period: 24
-  #   percent_required: 0.5
-  #   weight: 0.2
+    extensions:
+      raa66: 3
 
   - type: due
     id: world
@@ -41,12 +37,42 @@ assessments:
     # percent_required: 0.8
     weight: 0.5
 
-  - type: extra
-    name: "Project Bonus"
-    # credit:
-    #   token-12345: 0.05
-    #   token-67890: 0.03
+  - type: due
+    id: hw1-dojo
+    date: "2025-03-15T23:59:59-05:00"
+    # extra_late_date: "2025-03-20T23:59:59-05:00"
+    # late_penalty: 0.2
+    # extra_late_penalty: 0.4
+    # percent_required: 0.8
+    weight: 0.2
 
-max_extra: 0.1
+  - type: due
+    id: hw2
+    date: "2025-03-15T23:59:59-05:00"
+    # extra_late_date: "2025-03-20T23:59:59-05:00"
+    # late_penalty: 0.2
+    # extra_late_penalty: 0.4
+    # percent_required: 0.8
+    weight: 0.2
+
+  - type: due
+    id: hw3
+    date: "2025-03-15T23:59:59-05:00"
+    # extra_late_date: "2025-03-20T23:59:59-05:00"
+    # late_penalty: 0.2
+    # extra_late_penalty: 0.4
+    # percent_required: 0.8
+    weight: 0.3
+
+  - type: due
+    id: hw4
+    date: "2025-03-15T23:59:59-05:00"
+    # extra_late_date: "2025-03-20T23:59:59-05:00"
+    # late_penalty: 0.2
+    # extra_late_penalty: 0.4
+    # percent_required: 0.8
+    weight: 0.3
+
+
 
 grading_policy: "Complete all modules and assessments for full credit."
