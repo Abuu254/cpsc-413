@@ -8,6 +8,8 @@ letter_grades:
   D: 0.6
   F: 0.0
 
+late_days: 6
+
 assessments:
   # - type: checkpoint
   #   id: hello
@@ -25,6 +27,10 @@ assessments:
     # percent_required: 0.8
     weight: 0.5
 
+    challenge_weights:
+      apple: 0.3
+      banana: 0.7
+
     extensions:
       raa66: 3
 
@@ -36,6 +42,11 @@ assessments:
     # extra_late_penalty: 0.4
     # percent_required: 0.8
     weight: 0.5
+
+    challenge_weights:
+      earth: 0.3
+      mars: 0.3
+      venus: 0.4
 
   - type: due
     id: hw1
