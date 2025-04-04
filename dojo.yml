@@ -15,8 +15,8 @@ modules:
     name: Homework 4
     description: Challenges from Homework 4- Application Security
 
-    award:
-      emoji: 🪳
+    # award:
+    #   emoji: 🪳
 
     challenges:
       - import:
