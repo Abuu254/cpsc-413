@@ -38,7 +38,7 @@ assessments:
     weight: 0.5
 
   - type: due
-    id: hw1-dojo
+    id: hw1
     date: "2025-03-15T23:59:59-05:00"
     # extra_late_date: "2025-03-20T23:59:59-05:00"
     # late_penalty: 0.2
