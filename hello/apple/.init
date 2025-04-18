@@ -13,10 +13,3 @@ export FLASK_APP=flaskeddit.py
 
 # initialize the SQLite DB
 flask cli create_db
-
-# 4) Emit the unprivileged entrypoint
-cat > /challenge/run << 'EOF'
-#!/usr/bin/env bash
-exec flask run --host challenge.localhost --port 80
-EOF
-chmod +x /challenge/run
