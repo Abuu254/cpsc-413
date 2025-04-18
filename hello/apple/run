@@ -5,4 +5,4 @@ set -e
 cd /challenge/flaskeddit
 
 # launch the Flask app
-exec flask run --host challenge.localhost --port 80
+exec python -m flask run --host challenge.localhost --port 80
