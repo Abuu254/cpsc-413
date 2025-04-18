@@ -1,4 +1,4 @@
-#!/opt/pwn.college/bash
+#!/usr/bin/env bash
 
 set -e
 
