@@ -1,0 +1,26 @@
+#!/opt/pwn.college/bash
+
+set -e
+
+# make sure the correct python is in the path
+mkdir -p /challenge/bin && ln -sf /bin/python /bin/python3 /bin/ipython /bin/ipython3 /challenge/bin
+
+cd /challenge
+
+# clone Flaskeddit if not already vendored
+if [ ! -d flaskeddit ]; then
+  git clone https://github.com/aqche/flaskeddit.git flaskeddit
+fi
+
+cd flaskeddit
+
+# install dependencies
+pip install -r requirements.txt
+
+export FLASK_APP=flaskeddit.py
+
+# initialize the SQLite DB
+flask cli create_db
+
+# run the server on the Dojo challenge host:port
+flask run --host challenge.localhost --port 80
