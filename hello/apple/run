@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-set -e
-
-# go to the app directory
-cd /challenge/flaskeddit
-
-# launch the Flask app
-exec python -m flask run --host challenge.localhost --port 80
