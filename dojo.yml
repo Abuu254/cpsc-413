@@ -6,9 +6,7 @@ award:
 image: pwncollege/challenge-simple
 modules:
   - id: hello
-  # - import:
-  #     dojo: example-dojo
-  #     module: world
+  - id: world
   - import:
       dojo: hw1-dojo
       module: hw1
