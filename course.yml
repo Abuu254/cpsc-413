@@ -31,8 +31,8 @@ assessments:
       apple: 0.3
       banana: 0.7
 
-    extensions:
-      raa66: 3
+    # extensions:
+    #   raa66: 3
 
   - type: due
     id: world
